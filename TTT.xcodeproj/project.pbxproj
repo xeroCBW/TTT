@@ -13,6 +13,10 @@
 		D020B13C1EE7E08800E42025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D020B13A1EE7E08800E42025 /* Main.storyboard */; };
 		D020B13E1EE7E08800E42025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D020B13D1EE7E08800E42025 /* Assets.xcassets */; };
 		D020B1411EE7E08800E42025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D020B13F1EE7E08800E42025 /* LaunchScreen.storyboard */; };
+		D07C675B1EF1228600EC79A2 /* QDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07C67591EF1228600EC79A2 /* QDWebViewController.m */; };
+		D07C675C1EF1228600EC79A2 /* QDWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07C675A1EF1228600EC79A2 /* QDWebViewController.xib */; };
+		D07C675F1EF1237D00EC79A2 /* 快捷支付服务协议.html in Resources */ = {isa = PBXBuildFile; fileRef = D07C675D1EF1237D00EC79A2 /* 快捷支付服务协议.html */; };
+		D07C67601EF1237D00EC79A2 /* 招商基金网上直销交易平台服务协议.html in Resources */ = {isa = PBXBuildFile; fileRef = D07C675E1EF1237D00EC79A2 /* 招商基金网上直销交易平台服务协议.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		D020B13D1EE7E08800E42025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D020B1401EE7E08800E42025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D020B1421EE7E08800E42025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07C67581EF1228600EC79A2 /* QDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDWebViewController.h; sourceTree = "<group>"; };
+		D07C67591EF1228600EC79A2 /* QDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDWebViewController.m; sourceTree = "<group>"; };
+		D07C675A1EF1228600EC79A2 /* QDWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDWebViewController.xib; sourceTree = "<group>"; };
+		D07C675D1EF1237D00EC79A2 /* 快捷支付服务协议.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "快捷支付服务协议.html"; sourceTree = "<group>"; };
+		D07C675E1EF1237D00EC79A2 /* 招商基金网上直销交易平台服务协议.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "招商基金网上直销交易平台服务协议.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,8 @@
 		D020B1251EE7E08800E42025 = {
 			isa = PBXGroup;
 			children = (
+				D07C675D1EF1237D00EC79A2 /* 快捷支付服务协议.html */,
+				D07C675E1EF1237D00EC79A2 /* 招商基金网上直销交易平台服务协议.html */,
 				D020B1301EE7E08800E42025 /* TTT */,
 				D020B12F1EE7E08800E42025 /* Products */,
 			);
@@ -62,6 +73,9 @@
 				D020B1351EE7E08800E42025 /* AppDelegate.m */,
 				D020B1371EE7E08800E42025 /* ViewController.h */,
 				D020B1381EE7E08800E42025 /* ViewController.m */,
+				D07C67581EF1228600EC79A2 /* QDWebViewController.h */,
+				D07C67591EF1228600EC79A2 /* QDWebViewController.m */,
+				D07C675A1EF1228600EC79A2 /* QDWebViewController.xib */,
 				D020B13A1EE7E08800E42025 /* Main.storyboard */,
 				D020B13D1EE7E08800E42025 /* Assets.xcassets */,
 				D020B13F1EE7E08800E42025 /* LaunchScreen.storyboard */,
@@ -139,6 +153,9 @@
 			files = (
 				D020B1411EE7E08800E42025 /* LaunchScreen.storyboard in Resources */,
 				D020B13E1EE7E08800E42025 /* Assets.xcassets in Resources */,
+				D07C67601EF1237D00EC79A2 /* 招商基金网上直销交易平台服务协议.html in Resources */,
+				D07C675C1EF1228600EC79A2 /* QDWebViewController.xib in Resources */,
+				D07C675F1EF1237D00EC79A2 /* 快捷支付服务协议.html in Resources */,
 				D020B13C1EE7E08800E42025 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +169,7 @@
 			files = (
 				D020B1391EE7E08800E42025 /* ViewController.m in Sources */,
 				D020B1361EE7E08800E42025 /* AppDelegate.m in Sources */,
+				D07C675B1EF1228600EC79A2 /* QDWebViewController.m in Sources */,
 				D020B1331EE7E08800E42025 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +329,7 @@
 				D020B1471EE7E08800E42025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
